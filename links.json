@@ -3,27 +3,32 @@
         {
             "title": "Telegram",
             "url": "https://t.me/+ZqPrV5p_U0hiYmRh",
-            "description": "Join on Telegram."
+            "description": "Join on Telegram.",
+            "icon": "https://static-00.iconduck.com/assets.00/telegram-icon-96x96-nxgh30y7.png"
         },
         {
             "title": "Skype",
             "url": "https://join.skype.com/1twwflvCvC8V",
-            "description": "Join on Skype."
+            "description": "Join on Skype.",
+            "icon": "https://static-00.iconduck.com/assets.00/skype-icon-96x96-h2kpapc3.png"
         },
         {
             "title": "Teams",
             "url": "https://teams.live.com/l/community/FBAP3xCVCIJZd0ingI",
-            "description": "Join on Microsoft Teams."
+            "description": "Join on Microsoft Teams.",
+            "icon": "teams-icon.png"
         },
         {
-            "title": "Secure Video Chat",
-            "url": "https://talk.brave.com/aCfz31qQznkKjv5zBaVHRjA0ZdVIsxFe0BJ8HWVdtYs",
-            "description": "Join the live chat now. Password required."
+            "title": "Secure Video Chat (OUT TO LUNCH)",
+            "url": "https://youtu.be/6CqXgs-7ico?si=wgjEdjErLTTQv6VE",
+            "description": "Join the live chat when open. Currently closed.",
+            "icon": "https://static-00.iconduck.com/assets.00/brave-browser-dev-icon-96x96-0v2rey8u.png"
         },
         {
             "title": "Contact",
             "url": "mailto:boss@woodhood.men",
-            "description": "Email the boss for help."
+            "description": "Email the boss for help.",
+            "icon": "https://static-00.iconduck.com/assets.00/envelope-send-illustration-96x65-wetshn53.png"
         }
     ]
 }

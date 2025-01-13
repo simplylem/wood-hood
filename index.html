@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <title>WOODHOOD | LIVE from L.A. #W3$T$!D3</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@700&family=Open+Sans:wght@700&family=Lobster&display=swap');
+
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
+            background-color: #1c1c1c;
+            color: #ffffff;
             margin: 40px;
-            position: relative;
-            overflow: hidden;
         }
-        .background-video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            z-index: -1;
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            color: #B8860B; /* Bronze-gold color */
+            margin-bottom: 0;
         }
-        .content {
-            position: relative;
-            z-index: 1;
+        h3 {
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 0;
+        }
+        .hashtag {
+            font-family: 'Lobster', cursive;
+            color: #A9A9A9; /* Darker gray color */
         }
         .link {
             margin-bottom: 20px;
@@ -35,19 +38,22 @@
         }
         .description {
             font-size: 14px;
-            color: #666;
+            color: #888888;
+        }
+        .legalese {
+            font-size: 10px;
+            color: #00FF00;
+            font-family: 'Menlo', monospace;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
-    <video autoplay muted loop class="background-video">
-        <source src="https://drive.google.com/file/d/1uzGDA7BPdOGlVtkGHxEPUMWVS9POc5A4/view?usp=drivesdk" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="content">
-        <h1>WOODHOOD</h1>
-        <h3>LIVE from Los Angeles #W3$T$!D3</h3>
-        <div id="linksContainer"></div>
+    <h1>WOODHOOD</h1>
+    <h3>LIVE from Los Angeles <span class="hashtag">#W3$T$!D3</span></h3>
+    <div id="linksContainer"></div>
+    <div class="legalese">
+        This website is only for those who are authorized to use it.
     </div>
 
     <script src="script.js"></script>
